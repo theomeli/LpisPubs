@@ -154,7 +154,7 @@
 						$numOfRefsRaw = mysql_query($publicationRefs);
 						$numOfRefs = mysql_fetch_array($numOfRefsRaw);
 						if ($numOfRefs[0] > 0)
-							echo '<p style="text-align: right; flow: right; display: inline; font-size: 11px; color: #FF3300; padding: 0px;">ref: <span>' .
+							echo '<p style="text-align: right; display: inline; font-size: 11px; color: #FF3300; padding: 0px;">ref: <span>' .
 								$numOfRefs[0] .
 							'</span></p>
 					</td>
