@@ -87,7 +87,7 @@
 								for ($j = 0; $j < $num_authorsNames; $j++){
 									$authorName = mysql_fetch_array($authorsNames);
 									$k = $j + 1;
-									echo '<span property="rdf:_' . $k . '" href="http://lpis.csd.auth.gr/lod/publications#authorID' . $authorName[0] . '" ></span>';
+									echo '<span property="rdf:_' . $k . '" resource="http://lpis.csd.auth.gr/lod/publications#authorID' . $authorName[0] . '" ></span>';
 								}
 							echo '</span>';
 							
